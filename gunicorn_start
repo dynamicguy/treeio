@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
  
 NAME="treeio" # Name of the application
 DJANGODIR=/srv/treeio/treeio # Django project directory

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 [ "$1" == "" ] && echo "Usage: runinstall yes (to confirm)" && exit 
 

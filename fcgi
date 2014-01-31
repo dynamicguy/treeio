@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 MYAPP=treeio
 PIDFILE=/var/run/${MYAPP}_fcgi.pid
 SOCKET=/tmp/${MYAPP}.fcgi

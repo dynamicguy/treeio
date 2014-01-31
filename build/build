@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 echo Using workspace: $WORKSPACE/treeio
 cd $WORKSPACE/treeio
 python manage.py test --pythonpath=$WORKSPACE --settings=treeio.settings-test --cover-package=treeio --with-xunit --with-xcoverage treeio

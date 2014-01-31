@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 svn status | grep "^?" | awk '{print $2}' | xargs svn add
 
 svn status
